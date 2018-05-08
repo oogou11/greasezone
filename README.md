@@ -1,2 +1,2 @@
 # greasezone
-this is a company website by vue
+this is a company website by django
