@@ -25,7 +25,7 @@ SECRET_KEY = 'd4n+@03kg2g+%2$m1ig_sa_8@m2umi5!#_fatz(*@6_p^s)esv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api.leyouv.com']
 
 
 # Application definition
