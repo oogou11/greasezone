@@ -569,13 +569,13 @@ body {
 /* ( a ) Story of Glory */
 
 .profile-page .image-container {
-    background: url(static/web/images/background/profile_image.jpg);
+    background: url(../images/background/profile_image.jpg);
     background-size: cover;
     background-position: bottom;
 }
 
 .story {
-    background: url(static/web/images/background/story_bg.jpg);
+    background: url(../images/background/story_bg.jpg);
     background-size: cover;
     min-height: 100vh;
 }
@@ -673,7 +673,7 @@ body {
 /* ( c ) Some Facts */
 
 .facts {
-    background: url(static/web/images/background/facts-bg.jpg);
+    background: url(../images/background/facts-bg.jpg);
     background-size: cover;
     text-align: center;
     padding: 50px 15px;
@@ -686,7 +686,7 @@ body {
 /* ( a ) Education Section */
 
 .resume-page .image-container {
-    background: url(static/web/images/background/resume_image.jpg);
+    background: url(../images/background/resume_image.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -872,7 +872,7 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-    background: url(static/web/images/background/portfolio_image.jpg);
+    background: url(../images/background/portfolio_image.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -1100,7 +1100,7 @@ body {
 /* ( a )  Contact Form */
 
 .contact-page .image-container {
-    background: url(static/web/images/background/contact_image.jpg);
+    background: url(../images/background/contact_image.jpg);
     background-size: cover;
     background-position: bottom;
 }
