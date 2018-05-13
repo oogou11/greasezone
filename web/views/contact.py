@@ -10,9 +10,9 @@ class SendEmail(object):
         self._user_name=user_name
         self._user_email=user_email
         self._message=message
-        self.host="smtp.aliyun.com"  #设置服务器
-        self.send_user="toolcompany@aliyun.com"    #用户名
-        self.send_pass="Zhangxing@1234"   #口令 
+        self.host="smtp.mxhichina.com"  #设置服务器
+        self.send_user="zhangxing@ckower.com"    #用户名
+        self.send_pass="me2018$4321"   #口令 
         self.reciver="490198677@qq.com" #接收邮件
 
     def send_email(self):
@@ -29,8 +29,7 @@ class SendEmail(object):
         message['Subject'] = Header(subject, 'utf-8')  
         
         try:
-            smtpObj = smtplib.SMTP()
-            smtpObj.connect(self.host, 25)
+            smtpObj = smtplib.SMTP_SSL(self.host,465) 
             smtpObj.login(self.send_user,self.send_pass) 
             smtpObj.sendmail(self.send_user,self.reciver, message.as_string())
             print('邮件发送成功！')
